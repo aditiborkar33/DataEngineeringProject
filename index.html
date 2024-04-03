@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Health Care</title>
+</head>
+<body>
+<div>
+    <h1>Patient Details Form</h1>
+    <form method="POST" action="http://127.0.0.1:5000/submit">
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name: </label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="blood_group">Blood Group: </label>
+                </td>
+                <td>
+                    <select name="blood_group" id="blood_group">
+                        <option value="ABP">AB +ve</option>
+                        <option value="AP">A +ve</option>
+                        <option value="BP">B +ve</option>
+                        <option value="OP">O +ve</option>
+                        <option value="ABN">AB -ve</option>
+                        <option value="AN">A -ve</option>
+                        <option value="BN">B -ve</option>
+                        <option value="ON">O -ve</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age: </label>
+                </td>
+                <td>
+                    <input type="number" id="age" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="medical_condition">Medical Condition: </label>
+                </td>
+                <td>
+                    <select name="medical_condition" id="medical_condition">
+                        <option value="diabetes">Diabetes</option>
+                        <option value="arthritis">Arthritis</option>
+                        <option value="asthama">Asthama</option>
+                        <option value="obesity">Obesity</option>
+                        <option value="cancer">Cancer</option>
+                        <option value="hypertension">Hypertension</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+        <p>Press Submit button to submit details.</p>
+    </form>
+</div>
+</body>
+</html>
