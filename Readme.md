@@ -25,7 +25,7 @@ seaborn
 
 run:  python3 HealthcareDataAnalysis.py 
 Output: 
-<img width="1728" alt="Screenshot 2024-04-03 at 11 03 48 PM" src="https://github.com/aditiborkar33/DataEngineeringProject/assets/132448842/82cbde61-4a25-47fc-a5ee-390a9e57b226">
+<img width="1727" alt="Screenshot 2024-04-03 at 11 36 06 PM" src="https://github.com/aditiborkar33/DataEngineeringProject/assets/132448842/6e0040d6-0e85-4aaf-b743-3b8b98f1e753">
 
 b: 
 run:  python3 HealthcareDataAnalysis.py 
