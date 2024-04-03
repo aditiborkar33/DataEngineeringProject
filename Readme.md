@@ -24,12 +24,14 @@ pandas
 seaborn
 
 run:  python3 HealthcareDataAnalysis.py 
-Output: path![Screenshot 2024-04-03 at 11.03.58 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F86%2Fb0348_xx4sbcb0vcx56n4j4w0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_BkdLK6%2FScreenshot%202024-04-03%20at%2011.03.58%E2%80%AFPM.png)
+Output: 
+<img width="1728" alt="Screenshot 2024-04-03 at 11 03 48 PM" src="https://github.com/aditiborkar33/DataEngineeringProject/assets/132448842/82cbde61-4a25-47fc-a5ee-390a9e57b226">
 
 b: 
 run:  python3 HealthcareDataAnalysis.py 
 output: 
 Medical Condition </t>      AVGBill</br>
+
 0   </t>        Arthritis </t>   25187.631255</br>
 1   </t>           Asthma </t>   25416.869895</br>
 2   </t>           Cancer </t>   25539.096133</br>
@@ -40,13 +42,16 @@ Medical Condition </t>      AVGBill</br>
 This output will get printed in <b>Terminal</b>
 
 2.
-a:
+a: 
+With plotted graph we get clear idea about every disease in data set and patient count of every disease will show them the Medical Condition they are at most risk.
+
+b:
 Created Website open index.html in browser, css file is linked with it named styles.css
 WebApi.py file will be used to start server on http://127.0.0.1:5000 using Flask
 
+
 api exposed is /submit which will accept POST request 
 User will fillup all data in web form and submit. CSV file with name patient_data.csv will get created and User Data will be inserted.
+output:
+<img width="1504" alt="Screenshot 2024-04-03 at 11 28 22 PM" src="https://github.com/aditiborkar33/DataEngineeringProject/assets/132448842/58e70c50-c92d-4a1a-8222-e610b38e58cf">
 
-![Screenshot 2024-04-03 at 11.14.35 PM.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2F86%2Fb0348_xx4sbcb0vcx56n4j4w0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_25CFRJ%2FScreenshot%202024-04-03%20at%2011.14.35%E2%80%AFPM.png)
-
-b: 
